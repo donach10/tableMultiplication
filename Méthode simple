@@ -1,0 +1,14 @@
+# Méthode simple 
+ach = [1, 2, 3, 4, 5, 6]  
+resultats = []
+# Boucle à travers chaque nombre  
+for a in ach : 
+        # Vérifie si le nombre est pair 
+        if a % 2 == 0:   
+             # Multiplie par 2 si pair  
+            resultats.append(a * 2) 
+        else:  
+             # Garde le nombre inchangé s'il est impair 
+            resultats.append(a)  
+ 
+print(resultats)  
