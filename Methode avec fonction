@@ -1,0 +1,15 @@
+# Methode avec fonction
+
+def multiplier_pairs(nombres):  
+    resultats = []  # Liste pour stocker les résultats  
+    for nombre in nombres:  # Boucle à travers chaque nombre  
+        if nombre % 2 == 0:  # Vérifie si le nombre est pair  
+            resultats.append(nombre * 2)  # Multiplie par 2 si pair  
+        else:  
+            resultats.append(nombre)  # Garde le nombre inchangé s'il est impair  
+    return resultats  
+
+# Exemple d'utilisation  
+nombres = [1, 2, 3, 4, 5, 6]  
+resultat = multiplier_pairs(nombres)  
+print(resultat)  # Affiche [1, 4, 3, 8, 5, 12]  
